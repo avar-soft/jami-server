@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 Jami Server — Auto Installer
+# 📡 Jami Server - Auto Installer
 
 **Автоматическая установка самохостируемого сервера Jami**
 DHT Bootstrap-нода + STUN/TURN (coturn) — одним скриптом
@@ -62,17 +62,6 @@ sudo bash <(curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/m
 wget https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh
 chmod +x jami.sh
 sudo bash jami.sh
-```
-
-Перед запуском откройте скрипт и задайте свои настройки в секции `НАСТРОЙКИ`:
-
-```bash
-SERVER_IP="89.169.44.54"       # IP вашего сервера (или оставьте пустым — определится авто)
-TURN_DOMAIN="turn.example.com" # домен для TLS (опционально)
-TURN_USER="myuser"             # логин TURN
-TURN_PASSWORD="mypassword"     # пароль TURN
-```
-
 ---
 
 ## ⚙️ Что делает скрипт
