@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 Jami Server - Auto Installer
+# 📡 Jami Server — Auto Installer
 
 **Автоматическая установка самохостируемого сервера Jami**
 DHT Bootstrap-нода + STUN/TURN (coturn) — одним скриптом
@@ -62,9 +62,12 @@ sudo bash <(curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/m
 wget https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh
 chmod +x jami.sh
 sudo bash jami.sh
----
+```
+
+```
 
 ---
+
 ## ⚙️ Что делает скрипт
 
 ```
