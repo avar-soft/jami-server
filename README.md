@@ -17,7 +17,7 @@ DHT Bootstrap-нода + STUN/TURN (coturn) — одним скриптом
 ![Demo](https://img.shields.io/badge/▶_Быстрый_старт-одна_команда-success?style=for-the-badge)
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh)
+curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh -o jami.sh && sudo bash jami.sh
 ```
 
 </div>
