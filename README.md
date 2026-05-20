@@ -54,7 +54,7 @@ curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh 
 
 **Способ 1 — напрямую:**
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh)
+curl -fsSL https://raw.githubusercontent.com/avar-soft/jami-server/main/jami.sh -o jami.sh && sudo bash jami.sh
 ```
 
 **Способ 2 — скачать и запустить:**
