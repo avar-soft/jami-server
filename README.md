@@ -64,6 +64,13 @@ chmod +x jami.sh
 sudo bash jami.sh
 ```
 
+Перед запуском откройте скрипт и задайте свои настройки в секции `НАСТРОЙКИ`:
+
+```bash
+SERVER_IP="89.169.44.54"       # IP вашего сервера (или оставьте пустым — определится авто)
+TURN_DOMAIN="turn.example.com" # домен для TLS (опционально)
+TURN_USER="myuser"             # логин TURN
+TURN_PASSWORD="mypassword"     # пароль TURN
 ```
 
 ---
