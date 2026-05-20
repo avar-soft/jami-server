@@ -64,6 +64,7 @@ chmod +x jami.sh
 sudo bash jami.sh
 ---
 
+
 ## ⚙️ Что делает скрипт
 
 ```
