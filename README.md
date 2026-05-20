@@ -241,6 +241,37 @@ cd deps && dpkg -i *.deb 2>/dev/null; apt-get install -f -y
 
 ---
 
+--
+
+## 🐧 Настройка мобильного клиента
+
+DHT Bootstrap:  xxx.yyy.zzz.www:62000
+STUN:           stun:xxx.yyy.zzz.www:60000
+TURN:           turn:xxx.yyy.zzz.www:60000
+DHT Proxy       xxx.yyy.zzz.www:8080
+TURN login:     <name> / *********
+
+Сервер имен
+xxx.yyy.zzz.www
+
+OpenDHT
+- Начальная загрузка:
+xxx.yyy.zzz.www:62000
+
+Использование DHT прокси
+- адрес прокси для DHT
+xxx.yyy.zzz.www:8080
+
+Настройки аккаунта
+Одноранговое соединение:
+- Включить UpnP ✅
+- Использовать TURN
+turn:xxx.yyy.zzz.www:60000
+- Имя пользователя: <name>  
+- Пароль: *********
+
+---
+
 ## 📄 Лицензия
 
 Распространяется под лицензией [MIT](LICENSE). Свободно для личного и коммерческого использования.
