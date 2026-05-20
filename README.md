@@ -2,8 +2,8 @@
 
 # 📡 Jami Server — Auto Installer
 
-**Автоматическая установка самохостируемого сервера Jami**
-DHT Bootstrap-нода + STUN/TURN (coturn) — одним скриптом
+**Автоматическая установка сервера Jami**
+DHT Bootstrap-нода + STUN/TURN (coturn) - одним скриптом
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Shell Script](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)](jami.sh)
